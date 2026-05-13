@@ -2,10 +2,10 @@
 const top6 = [
     "This Place Is Built (Sugar Hill Mix)", 
     "Berreta (De Los Cerros La Escuela)", 
-    "Feel Good Inc.", "Groove District", 
+    "Feel Good Inc.", 
+    "Groove District", 
     "Água de Beber", 
-    "Everything Stays (featuring Olivia Olson)",
-    "Tani VHS"
+    "Everything Stays (featuring Olivia Olson)"
 ];
 
 // Opdracht 2
