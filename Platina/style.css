@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f0f2f5;
+}
+
+.main-wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+/* Linkerkolom */
+.sidebar {
+    width: 400px;
+    background: white;
+    border-right: 2px solid #ddd;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.passagier-kaart {
+    display: flex;
+    align-items: center;
+    background: #fafafa;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.passagier-kaart img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.passagier-info {
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.passagier-info strong {
+    display: block;
+    font-size: 16px;
+}
+
+/* Rechterkolom */
+.route-view {
+    flex-grow: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bus-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.halte {
+    background: white;
+    border: 3px solid #007bff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.halte.current {
+    background: #007bff;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+}
+
+.lijn {
+    width: 6px;
+    height: 40px;
+    background: #007bff;
+}
+
+button {
+    cursor: pointer;
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn-delete {
+    background: #dc3545;
+    margin-left: 5px;
+}

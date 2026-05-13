@@ -27,6 +27,7 @@ function mutatieSaldo(id, bedrag) {
     if (reiziger) {
         reiziger.saldo += bedrag;
         console.log(`Saldo van ${reiziger.naam} is nu: €${reiziger.saldo}`);
+        
     }
 }
 
